@@ -1,0 +1,23 @@
+h1 {
+    font-family: comic sans MS;
+    color: white;
+    background-color: black;
+}
+span {
+    color: cyan;
+}
+h2 {
+    color: white;
+    background-color: rebeccapurple;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: sans-serif;
+}
+h3 {
+    text-align: right;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-weight: lighter;
+    background-color:skyblue;
+}
