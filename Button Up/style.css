@@ -1,0 +1,28 @@
+.box {
+    border-color: teal;
+    border-radius: 15px;
+    width: 130px;
+    height: 25px;
+}
+::placeholder{
+    text-align: center;
+    color:teal;
+    font-size: 12px;
+}
+.plus {
+    border-radius: 50%;
+    color: white;
+    background-color: turquoise;
+    width: 40px;
+    height: 40px;
+    font-size: large;
+}
+.submit{
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    border-color: black;
+    box-shadow: 5px 5px black;
+}
