@@ -1,0 +1,44 @@
+.wrapper {
+    width: 700px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    color: slategray;
+}
+.row1 {
+    height: 250px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.row2 {
+    height: 250px;
+    background-color: olive;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+.row3 {
+    height: 250px;
+    background-color:skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.octocat{
+    height: 200px;
+}
+h2 {
+    text-align: center;
+    color: slategray;
+    font-size: smaller;
+}
+span{
+    text-decoration: underline;
+    color: blue;
+}
