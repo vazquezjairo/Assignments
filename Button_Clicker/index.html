@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1 id="dojonary">Dojonary</h1>
+            <input type="text" name="search" placeholder=" Search" id="search">
+            <button type="submit" onclick="Logout(this)" id="login">Login</button>
+
+        </div>
+        <div class="main-content">
+            <div class="left">
+                <div class="top-left">
+                    <div class="left-ninja">
+                        <h1 id="ninja">ninja</h1>
+                        <p id="dictionary"><em>noun</em></p>
+                        <p id="dictionary">Plural:<em>ninjas</em></p>
+                        <button type="submit" onclick="alert('ninja was liked')" id="likes">13 likes</button>
+                    </div>
+                    <div class="left-definition">
+                        <p id="">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="bot-left">
+                    <div class="left-ninja">
+                        <h1 id="ninja">ninja</h1>
+                        <p id="dictionary"><em>noun</em></p>
+                        <p id="dictionary">Plural:<em>ninjas</em></p>
+                        <button type="submit" id="likes">37 likes</button>
+                    </div>
+                    <div class="left-definition">
+                        <p id="">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <h1>Dojonary is defined by YOU</h1>
+                <div class="add-definition"> 
+                    <button type="submit" onclick="hide(this)" id="definition-button">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    width: 90%;
+    height: 750px;
+    margin: auto;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.main-content {
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+#dojonary, #search, #login {
+    height: 30px;
+    margin: 30px;
+}
+#dojonary {
+    height: 50px;
+    font-size: 40px;
+}
+#search {
+    width: 40%;
+    border: solid;
+    font-size: 15px;
+}
+#login {
+    background-color: royalblue;
+    width: 8%;
+    color: white;
+    font-size: 15px;
+    box-shadow: 2px 2px black;
+    border: solid 3px black;
+}
+.left {
+    height: 360px;
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lavenderblush;
+}
+.top-left {
+    width: 99%;
+    height: 160px;
+    border: solid;
+    display: flex;
+}
+.left-ninja {
+    width: 20%;
+    text-align: center;
+    margin-left: 5px;
+}
+#dictionary,#ninja {
+    margin-top: 5px;
+}
+#likes {
+    background-color: gold;
+    width: 90%;
+    height: 35px;
+    font-size: 15px;
+    box-shadow: 2px 2px black;
+    border: solid 3px black;
+    margin-top: 20px;
+}
+.left-definition {
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+}
+.bot-left {
+    margin-top: 30px;
+    width: 99%;
+    height: 160px;
+    border: solid;
+    display: flex;
+}
+.right {
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: honeydew;
+    border: solid;
+    height: 150px;
+    width: 25%;
+}
+.add-definition {
+    text-align: center;
+}
+#definition-button {
+    background-color: rgb(73, 192, 73);
+    width: 90%;
+    height: 35px;
+    font-size: 20px;
+    box-shadow: 2px 2px black;
+    border: solid 3px black;
+    margin-top: 20px;
+}
